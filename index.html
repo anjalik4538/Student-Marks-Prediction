@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Prediction</title>
+</head>
+<body>
+    <h2>Enter Student Details</h2>
+    <form method="POST" action="/predict">
+        Study Hours: <input type="text" name="study"><br><br>
+        Sleep Hours: <input type="text" name="sleep"><br><br>
+        Attendance (%): <input type="text" name="attendance"><br><br>
+        <input type="submit" value="Predict">
+    </form>
+    {% if result %}
+        <h3>{{ result }}</h3>
+    {% endif %}
+</body>
+</html>

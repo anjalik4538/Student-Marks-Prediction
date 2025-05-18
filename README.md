@@ -8,10 +8,8 @@ Predictive Analytics at Play: Harness the power of a pre-trained machine learnin
 Easy Deployment: Just clone this repository, install the dependencies with pip install -r requirements.txt, run python app.py, and access the app through your web browser. It's that simple!
 
 > Getting Started 🚀
-Clone the Repository: Grab a local copy of this repository using git clone https://github.com/your-username/student-marks-predictor.git.
 Install Dependencies: Navigate to the project folder and run pip install -r requirements.txt to install the necessary packages.
 Run the App: Execute python app.py to start the app.
-Access the App: Open your web browser and head to http://localhost:5000 to see the magic unfold!
 
 > Contributing 🤝
 Contributions are warmly welcomed! 🙌 If you discover any bugs or have ideas for improvements, please don't hesitate to submit an issue or pull request. Let's make this project even better together!
